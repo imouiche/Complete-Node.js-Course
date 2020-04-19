@@ -1,0 +1,25 @@
+Creating app... done, ⬢ murmuring-citadel-27266
+https://murmuring-citadel-27266.herokuapp.com/ | https://git.heroku.com/murmuring-citadel-27266.git
+
+:\Users\apytl\Documents\Node\vidly>git remote -v
+heroku  https://git.heroku.com/murmuring-citadel-27266.git (fetch)
+heroku  https://git.heroku.com/murmuring-citadel-27266.git (push)
+
+git push heroku master
+https://murmuring-citadel-27266.herokuapp.com/ deployed to Heroku
+
+heroku logs
+
+\Users\apytl\Documents\Node\vidly>heroku config:set vidly_jwtPrivateKey=12345
+Setting vidly_jwtPrivateKey and restarting ⬢ murmuring-citadel-27266... done, v4
+vidly_jwtPrivateKey: 12345
+
+\Users\apytl\Documents\Node\vidly>heroku config:set NODE_ENV=production
+Setting NODE_ENV and restarting ⬢ murmuring-citadel-27266... done, v5
+NODE_ENV: production
+
+
+D:\Users\apytl\Documents\Node\vidly>heroku config
+=== murmuring-citadel-27266 Config Vars
+NODE_ENV:            production
+vidly_jwtPrivateKey: 12345
